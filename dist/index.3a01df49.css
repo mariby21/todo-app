@@ -1,0 +1,99 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Orbitron:wght@500&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;1,300&family=Roboto:wght@100&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  min-width: 300px;
+  background-color: #ff6550;
+  font-family: Rubik Gemstones, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  color: #c4f0f2;
+  font-size: 82px;
+  text-decoration: line-through;
+}
+
+.container-input-item {
+  align-items: center;
+  gap: 22px;
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add-btn {
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  background-color: green;
+  border: none;
+  border-radius: 50%;
+}
+
+.input-from {
+  width: 522px;
+  height: 42px;
+  color: #fff;
+  background-color: #8080809f;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 22px;
+}
+
+.input-from::placeholder {
+  color: #ffffffb6;
+}
+
+.container-cur {
+  width: 750px;
+  height: 500px;
+  border: 5px solid #a9e65b59;
+  border-radius: 12px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  overflow: auto;
+  transform: translate(-50%, -50%);
+}
+
+.container-cur h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.todo {
+  justify-content: center;
+  gap: 2px;
+  margin-top: 32px;
+  display: flex;
+}
+
+.todo-input1 {
+  width: 540px;
+  height: 42px;
+  color: #fff;
+  background-color: #8080809f;
+  border-radius: 12px;
+  margin-right: 12px;
+  padding: 12px;
+  font-size: 22px;
+}
+
+.todo-input1:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

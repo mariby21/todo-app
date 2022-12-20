@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Orbitron:wght@500&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;1,300&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik Gemstones", sans-serif;
+  background-color: #ff6550;
+  color: white;
+  min-width: 300px;
+}
+
+h1 {
+  font-size: 82px;
+  text-align: center;
+  text-decoration: line-through;
+  letter-spacing: 5px;
+  color: #c4f0f2;
+}
+
+.container-input-item {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add-btn {
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  width: 44px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-from {
+  width: 522px;
+  height: 42px;
+  padding: 12px;
+  font-size: 22px;
+  border-radius: 12px;
+  background-color: rgba(128, 128, 128, 0.623);
+  color: white;
+}
+
+.input-from::placeholder {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.container-cur {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgba(169, 230, 91, 0.349);
+  border-radius: 12px;
+  width: 750px;
+  height: 500px;
+  overflow: auto;
+}
+
+.container-cur h2 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 32px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.todo {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+
+  margin-top: 32px;
+}
+
+.todo-input1 {
+  width: 540px;
+  height: 42px;
+  padding: 12px;
+  background-color: rgba(128, 128, 128, 0.623);
+  color: white;
+  font-size: 22px;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.todo-input1:focus {
+  outline: none;
+}
