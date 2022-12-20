@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "parcel": "^2.8.2"
+  },
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Todo list for fun practise",
+  "default": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Mario Petkov",
+  "license": "ISC"
+}
