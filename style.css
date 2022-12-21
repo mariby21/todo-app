@@ -97,3 +97,46 @@ h1 {
 .todo-input1:focus {
   outline: none;
 }
+
+.check,
+value {
+  text-decoration: line-through black;
+}
+
+.btn {
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-check {
+  background-color: green;
+  color: white;
+  margin-right: 6px;
+  width: 44px;
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+  width: 44px;
+}
+
+@media all and (max-width: 375px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .input-from {
+    width: fit-content;
+  }
+
+  .container-cur {
+    width: fit-content;
+    border: none;
+  }
+
+  .todo-input1 {
+    width: 220px;
+  }
+} ;

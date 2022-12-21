@@ -96,4 +96,27 @@ h1 {
   outline: none;
 }
 
+.check, value {
+  text-decoration: line-through;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-check {
+  color: #fff;
+  width: 44px;
+  background-color: green;
+  margin-right: 6px;
+}
+
+.btn-delete {
+  color: #fff;
+  width: 44px;
+  background-color: red;
+}
+
 /*# sourceMappingURL=index.3a01df49.css.map */
