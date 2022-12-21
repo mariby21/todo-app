@@ -133,7 +133,9 @@ value {
 
   .container-cur {
     width: fit-content;
+    height: fit-content;
     border: none;
+    margin-top: 68px;
   }
 
   .todo-input1 {
